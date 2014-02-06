@@ -61,8 +61,8 @@ module.exports = (config) ->
     # - PhantomJS
     # - IE (only Windows; has to be installed with `npm install karma-ie-launcher`)
     browsers: [
-      'Chrome'#,
-      #'PhantomJS'
+      #'Chrome'
+      'PhantomJS'
     ]
 
     # If browser does not capture in given timeout [ms], kill it
